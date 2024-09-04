@@ -3,42 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Document</title>
+    <style>
+        .box {
+            min-height: 400px;
+            width: 800px;
+            font-family: "Roboto Condensed", sans-serif;
+            margin: auto;
+            margin-top: 40;
+        }
+        table {
+            border-collapse: collapse;
+            width: 800px;
+            height: 400px;
+        }
+        .head {
+            background-color: rgb(252, 229, 99);
+        }
+        .btn {
+            margin-bottom: 7px;
+        }
+        td, th {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <div class="box">
-        <h1>Menu makan</h1>
-        <button>Tambah</button>
-        <table border="1" cellpadding="15">
-            <tr>
+        <h1>Menu makanan</h1>
+        <button class="btn">Tambah</button>
+        <table border="1" cellpadding="20">
+            <tr class="head">
                 <th>No</th>
                 <th>Nama</th>
                 <th>Harga</th>
                 <th>Gambar</th>
             </tr>
-            <tr>
+            <tr class="body">
                 <td>1</td>
                 <td>Sushi</td>
                 <td>15.000</td>
-                <td><img src="sushi.jfif"></td>
+                <td><img src="sushi.jfif" width="100"></td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Ramen</td>
                 <td>28.000</td>
-                <td><img src="ramen.jfif"></td>
+                <td><img src="ramen.jfif" width="100"></td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Moci</td>
                 <td>8.000</td>
-                <td><img src="moci.jfif"></td>
+                <td><img src="moci.jfif" width="100"></td>
             </tr>
             <tr>
                 <td>4</td>
                 <td>Dango</td>
                 <td>4.000</td>
-                <td><img src="dango.jfif"></td>
+                <td><img src="dango.jfif" width="100"></td>
             </tr>
         </table>
     </div>
