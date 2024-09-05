@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: "Roboto Condensed", sans-serif;
+        }
+        .container {
+            margin: auto;
+            width: 250px;
+            padding: 10px;
+            background-color: darkgrey;
+            box-shadow: 4px 4px 6px ;
+            border-radius: 10px;
+        }
+        .input {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        input {
+            width: 95%;
+            border: 1px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .sv {
+            padding-left: 184px;
+            padding-top: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <h1>Tambah makanan</h1>
+    <div class="input">
+    <div class="nama">
+        <label for="nama">Nama</label><br>
+        <input type="text">
+    </div><br>
+    <div class="kode">
+        <label for="kode">kode</label><br>
+        <input type="number">
+    </div><br>
+    <div class="msk">
+        <label for="tggl">Tanggal Masuk</label><br>
+        <input type="date">
+    </div><br>
+    <div class="expired">
+        <label for="tggls ex">Tanggal Expired</label><br>
+        <input type="date">
+    </div><br>
+    <div class="Stock">
+        <label for="jmlh">Jumlah Stock</label><br>
+        <input type="number">
+    </div><br>
+    <div class="harga msk">
+        <label for="msk">Harga Masuk</label><br>
+        <input type="number">
+    </div><br>
+    <div class="haga klr">
+        <label for="klr">Harga Keluar</label><br>
+        <input type="number">
+    </div><br>
+    <div class="sv">
+        <button>Simpan</button>
+    </div>
+</div>
+</div>
+</body>
+</html>
